@@ -2,7 +2,7 @@ import openai
 import os
 
 # Set up OpenAI API credentials
-os.environ["openai-api-key"] = "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"
+os.environ["openai-api-key"] = "openai-api-key"
 openai.api_key = os.environ["openai-api-key"]
 
 # Define the prompt and parameters for the API call
